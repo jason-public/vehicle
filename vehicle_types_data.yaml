@@ -1,0 +1,209 @@
+
+vehicleTypes:
+  - id: "001"
+    category: "화물자동차"
+    subcategory: "일반형 화물자동차"
+    type: "일반카고트럭류"
+    description: "물품적재장치(적재함)가 개방된 형태의 화물자동차로서 화물운송용인 일반적인 화물자동차"
+    images:
+      main: "/images/vehicles/cargo-truck-main.jpg"
+      thumbnail: "/images/vehicles/cargo-truck-thumb.jpg"
+    tags: ["화물운송", "개방형", "일반"]
+    hasTrailer: false
+
+  - id: "002"
+    category: "화물자동차"
+    subcategory: "일반형 화물자동차"
+    type: "풀카고(Pull-cargo)트럭류"
+    description: "단독으로도 화물운송을 수행할 수 있으며, 견인 고리를 통해 피견인차를 연결하여 운송이 가능한 차량"
+    images:
+      main: "/images/vehicles/pull-cargo-main.jpg"
+      thumbnail: "/images/vehicles/pull-cargo-thumb.jpg"
+    tags: ["화물운송", "견인", "트레일러"]
+    hasTrailer: true
+
+  - id: "003"
+    category: "화물자동차"
+    subcategory: "덤프형 화물자동차"
+    type: "덤프트럭류"
+    description: "적재함을 원동기의 힘으로 기울여 적재물을 중력에 의하여 쉽게 미끄러뜨리는 구조의 화물운송용 차량"
+    images:
+      main: "/images/vehicles/dump-truck-main.jpg"
+      thumbnail: "/images/vehicles/dump-truck-thumb.jpg"
+    tags: ["건설", "토사", "덤핑"]
+    hasTrailer: false
+
+  - id: "004"
+    category: "화물자동차"
+    subcategory: "밴형 화물자동차"
+    type: "일반밴형자동차"
+    description: "승차공간과 화물적재공간이 동일 차실 내에 있으면서 칸막이벽을 설치한 구조의 차량"
+    images:
+      main: "/images/vehicles/van-main.jpg"
+      thumbnail: "/images/vehicles/van-thumb.jpg"
+    tags: ["소형화물", "밴", "폐쇄형"]
+    hasTrailer: false
+
+  - id: "005"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "냉장·냉동자동차류"
+    description: "적재함 내부를 저온 상태로 유지할 수 있도록 냉장기, 냉동기 등의 장치가 장착된 차량"
+    images:
+      main: "/images/vehicles/refrigerated-main.jpg"
+      thumbnail: "/images/vehicles/refrigerated-thumb.jpg"
+      gallery:
+        - url: "/images/vehicles/refrigerated-01.jpg"
+          caption: "냉장·냉동차 외관"
+        - url: "/images/vehicles/refrigerated-02.jpg"
+          caption: "냉동기 장치"
+    tags: ["식품운송", "온도관리", "폐쇄형", "냉동"]
+    hasTrailer: false
+
+  - id: "006"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "내장자동차류"
+    description: "화물적재함이 철, 알루미늄 등의 탑 형태로 제작된 차량"
+    images:
+      main: "/images/vehicles/box-truck-main.jpg"
+      thumbnail: "/images/vehicles/box-truck-thumb.jpg"
+    tags: ["폐쇄형", "탑차", "화물보호"]
+    hasTrailer: false
+
+  - id: "007"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "보냉자동차류"
+    description: "냉동·냉장 기능은 없으나 외부 단열을 통해 내부 온도를 일정하게 유지하는 차량"
+    images:
+      main: "/images/vehicles/insulated-main.jpg"
+      thumbnail: "/images/vehicles/insulated-thumb.jpg"
+    tags: ["단열", "보온", "식품운송"]
+    hasTrailer: false
+
+  - id: "008"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "윙바디(Wing-body)자동차류"
+    description: "화물 적재함의 좌우 옆문이 날개모양으로 상하로 열리는 구조의 차량"
+    images:
+      main: "/images/vehicles/wing-body-main.jpg"
+      thumbnail: "/images/vehicles/wing-body-thumb.jpg"
+      gallery:
+        - url: "/images/vehicles/wing-body-01.jpg"
+          caption: "윙바디 외관"
+        - url: "/images/vehicles/wing-body-02.jpg"
+          caption: "윙 개방 상태"
+    tags: ["폐쇄형", "윙바디", "상하개폐"]
+    hasTrailer: false
+
+  - id: "009"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "자동하역자동차류"
+    description: "파워게이트, 리프트게이트 등의 장치를 장착한 차량"
+    images:
+      main: "/images/vehicles/lift-gate-main.jpg"
+      thumbnail: "/images/vehicles/lift-gate-thumb.jpg"
+    tags: ["하역", "리프트", "파워게이트"]
+    hasTrailer: false
+
+  - id: "010"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "이사화물수송자동차류"
+    description: "폐쇄형 적재함 구조로 이사화물 운송에만 사용되는 차량"
+    images:
+      main: "/images/vehicles/moving-truck-main.jpg"
+      thumbnail: "/images/vehicles/moving-truck-thumb.jpg"
+    tags: ["이사", "화물", "폐쇄형"]
+    hasTrailer: false
+
+  - id: "011"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "탱크트레일러류"
+    description: "액체 또는 기체 상태의 화물을 운반하기 위한 피견인차(트레일러)"
+    images:
+      main: "/images/vehicles/tank-trailer-main.jpg"
+      thumbnail: "/images/vehicles/tank-trailer-thumb.jpg"
+    tags: ["트레일러", "액체운송", "탱크"]
+    hasTrailer: true
+
+  - id: "012"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "유류탱크로리류"
+    description: "액체 상태의 석유제품을 운반하는 탱크로리를 설치한 차량"
+    images:
+      main: "/images/vehicles/oil-tanker-main.jpg"
+      thumbnail: "/images/vehicles/oil-tanker-thumb.jpg"
+    tags: ["유류", "탱크로리", "석유"]
+    hasTrailer: false
+
+  - id: "013"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "가스수송탱크로리류"
+    description: "액체 또는 기체 상태의 가스(LPG, LNG 등)를 운반하는 차량"
+    images:
+      main: "/images/vehicles/gas-tanker-main.jpg"
+      thumbnail: "/images/vehicles/gas-tanker-thumb.jpg"
+    tags: ["가스", "LPG", "LNG", "고압탱크"]
+    hasTrailer: false
+
+  - id: "014"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "컨테이너샤시트레일러류"
+    description: "컨테이너를 운반하기 위한 피견인차(트레일러)"
+    images:
+      main: "/images/vehicles/container-chassis-main.jpg"
+      thumbnail: "/images/vehicles/container-chassis-thumb.jpg"
+    tags: ["트레일러", "컨테이너", "샤시"]
+    hasTrailer: true
+
+  - id: "015"
+    category: "화물자동차"
+    subcategory: "특수용도형 화물자동차"
+    type: "렉커트럭류"
+    description: "고장 차량을 이동시키는데 적합한 차량"
+    images:
+      main: "/images/vehicles/wrecker-main.jpg"
+      thumbnail: "/images/vehicles/wrecker-thumb.jpg"
+    tags: ["견인", "구난", "렉커"]
+    hasTrailer: false
+
+  - id: "016"
+    category: "특수자동차"
+    subcategory: "견인형 특수자동차"
+    type: "컨테이너수송 트랙터"
+    description: "컨테이너샤시트레일러류를 견인하기 위해 이용되는 차량"
+    images:
+      main: "/images/vehicles/container-tractor-main.jpg"
+      thumbnail: "/images/vehicles/container-tractor-thumb.jpg"
+    tags: ["트랙터", "컨테이너", "견인"]
+    hasTrailer: true
+
+  - id: "017"
+    category: "특수자동차"
+    subcategory: "특수작업형 특수자동차"
+    type: "고소작업자동차류"
+    description: "작업대를 승강시켜 높은 장소에서 작업하는 차량"
+    images:
+      main: "/images/vehicles/aerial-work-main.jpg"
+      thumbnail: "/images/vehicles/aerial-work-thumb.jpg"
+    tags: ["고소작업", "승강", "작업대"]
+    hasTrailer: false
+
+  - id: "018"
+    category: "특수자동차"
+    subcategory: "특수작업형 특수자동차"
+    type: "구급차류"
+    description: "응급 환자를 이송하기 위한 차량"
+    images:
+      main: "/images/vehicles/ambulance-main.jpg"
+      thumbnail: "/images/vehicles/ambulance-thumb.jpg"
+    tags: ["구급", "응급", "의료"]
+    hasTrailer: false
